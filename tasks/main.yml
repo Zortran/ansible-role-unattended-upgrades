@@ -1,0 +1,4 @@
+---
+
+- name: Enable unattended upgrades
+  import_tasks: unattended-upgrades.yml

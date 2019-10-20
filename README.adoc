@@ -1,0 +1,11 @@
+= Ansible role: Enable unattended updates
+
+Designed for Ubuntu. Supported versions are 18.04 and 19.10.
+
+== Configuration
+
+- Development release upgrade: disabled on 18.04 and auto on 19.10
+- Remove unused kernel packages: enabled
+- Remove unused dependencies: enabled on 18.04 and only for new on 19.10
+- Automatic reboot: enabled on 18.04 and only if no users logged in on 19.10
+- Automatic reboot time: 02:00
